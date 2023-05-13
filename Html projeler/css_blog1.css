@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+}
+
+.header{
+    background-color: teal;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    flex: 70%;
+    padding-left: 20px;
+}
+
+.content-resim img{
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.sidebar{
+    flex: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.sidebar-resim img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.sidebar h2{
+    text-align: center;
+}
+
+
+.card{
+    padding: 20px;
+    margin-top: 10px ;
+    background-color: white;
+}
+
+.cart input{
+    background-color: white;
+    padding: 20px;
+    padding-left: 85px;
+    margin-top: 20px ;
+}
+
+.footer{
+    background-color: violet;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+}
+
+.footer p{
+    font-size: 30px;
+}
+
+@media screen and (max-width:700px){
+    .container, .navbar{
+        flex-direction: column;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+
+    .content{
+        padding-right: 10px;
+    }
+
+    .resim1{
+        height: 350px;
+    }
+
+}

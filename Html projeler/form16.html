@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:bisque">
+    
+    <from action="form.html">
+        <fieldset style="border:10px solid blueviolet">
+            <legend style="font-weight:bold">Form Input Elemanları</legend>
+
+            <table>
+                <tr>
+                    <td>Adi:</td>
+                    <td>
+                        <input type="text" name="isim">
+                    </td>
+                </tr>
+                <tr>
+                    <td>SoyAdi</td>
+                    <td>
+                        <input type="text" name="soyisim">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sifre</td>
+                    <td>
+                        <input type="password" name="sifre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cinsiyet</td>
+                    <td>
+                        <input type="radio" name="cinsiyet" value="cinsiyet">Erkek
+                        <input type="radio" name="cinsiyet" value="cinsiyet">Kadın
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobiller</td>
+                    <td>
+                        <input type="checkbox" name="kitap" value="kitap">Kitap Okumak
+                        <input type="checkbox" name="müzik" value="muzik">Müzik Dinlemek
+                        <input type="checkbox" name="film" value="film">Film İzlemek
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="gonder" value="gonder">
+                        <input type="button" name="duzenle" value="duzenle">
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <hr>
+        <fieldset style="border:10px solid darkcyan">
+            <legend style="font-weight:bold">Diger Programlama</legend>
+            <table cellpadding="10px" cellspacing="10px">
+                <tr>
+                    <td>Programlama</td>
+                    <td>
+                        <select>
+                            <option>Javascript</option>
+                            <option>Css</option>
+                            <option>Html</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Datalist Kullanımı</td>
+                    <td>
+                        <input list="browser">
+                        <datalist id="browser">
+                            <option>Firefox</option>
+                            <option>Chrome</option>
+                            <option>Opera</option>
+                            <option>Safari</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address: </td>
+                    <td>
+                        <textarea name="address" rows="10px" cols="30px"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </from>
+
+</body>
+</html>

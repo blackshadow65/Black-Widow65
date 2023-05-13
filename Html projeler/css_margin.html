@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin Kullanımı</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        div.kutular{
+            background-color: violet;
+            width: 900px;
+            height: 600px;
+            margin: auto; /* Ortaya almak icin kullanılır*/
+            padding: 20px;
+        }
+        div#kutu1{
+            background-color: chocolate;
+            border: 6px solid black;
+            width: 300px;
+            height: 150px;
+            margin-left: 20px; /* Kutumuzun sol tarafına bosluk degeri verdik*/ 
+            margin-top: 20px; /* Kutumuzun ust tarafına bosluk degeri verdik */
+           
+        }
+        div#kutu2{
+            background-color: cornflowerblue;
+            border: 6px solid red;
+            width: 300px;
+            height: 150px;
+            margin: auto;
+            margin-bottom:30px; /* Kutumuzun alt tarafına bosluk degeri verdik*/
+            margin-right: 600px; /*Kutumuzun sag tarafına bosluk degeri verdik*/
+        }
+        div#kutu3{
+            background-color: darkcyan;
+            border: 6px solid yellow;
+            width: 300px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kutular">
+
+    
+    <div id="kutu1" style="text-align: center;">KUTU1</div>
+    <div id="kutu2">KUTU2</div>
+    <div id="kutu3">KUTU3</div>
+</div>
+</body>
+</html>

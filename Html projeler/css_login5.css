@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: deepskyblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+img{
+    margin-top: -40px;
+    width: 80px;
+    height: 80px;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+input{ 
+    margin-top: 20px;
+    width: 60%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.placeholder{
+    background-color: aqua;
+    width: 25%;
+    font-weight: bold;
+}
+
+.placeholder:hover{
+    background-color: violet;
+    cursor: pointer;
+}

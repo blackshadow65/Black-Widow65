@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <fieldset style="border:10px solid blueviolet">
+            <legend style="font-weight:bold">Form Elemanları</legend>
+                <table>
+                    <tr>
+                        <td>Ad:</td>
+                        <td>
+                            <input type="text" name="ad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Soyisim</td>
+                        <td>
+                            <input type="text" name="soyisim">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sifre</td>
+                        <td>
+                            <input type="password" name="sifre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cinsiyet</td>
+                        <td>
+                            <input type="radio" name="erkek" value="erkek">Erkek
+                            <input type="radio" name="kadin" value="kadin">Kadin
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="kitap" value="kitap">Kitap Okumak
+                            <input type="checkbox" name="müzik" value="müzik">Müzik Dinlemek
+                            <input type="checkbox" name="film"  value="film">Film izlemek
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Gönder">
+                            <input type="button" value="Düzenle">
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>
+
+            <hr>
+            <br>
+            <fieldset style="border:10px solid darkcyan">
+                <legend style="font-weight: bold">Diger Form Elemanları</legend>
+                    <table cellpadding="10" cellpsacing="10">
+                        <tr>
+                            <td>Programlama</td>
+                            <td>
+                                <select>
+                                    <option>JAVASCRIPT</option>
+                                    <option>HTML</option>
+                                    <option>CSS</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Datalist Kulanımı</td>
+                            <td>
+                                <input list="browser">
+                                <datalist id="browser">
+                                    <option>Chorme</option>
+                                    <option>Opera</option>
+                                    <option>Firefox</option>
+                                    <option>Safari</option>
+                                </datalist>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>
+                                <textarea rows="10" cols="30"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

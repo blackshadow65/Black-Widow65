@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+body{
+    background-color: wheat;
+}
+
+.header{
+    background-color: teal;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+     flex:75%;
+     padding-left: 20px;
+}
+
+.content-resim{
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.sidebar{
+    flex: 25%;
+    margin-left: 20px;
+    margin-right:10px ;
+}
+
+.sidebar-resim img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidebar h1{
+    text-align: center;
+}
+
+.card{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.footer{
+    background-color: violet;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+.footer p{
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:700px){
+
+    .container, .navbar{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        text-align: center;
+    }
+
+    .content{
+        padding-right: 10px;
+    }
+
+    .resim1{
+        width: 350px;
+    }
+
+}

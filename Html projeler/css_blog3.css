@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: teal;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color: wheat;
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    flex: 75%;
+    padding-left: 20px;
+}
+
+.content-resim img{
+    width: 70%;
+    height: 300px;
+    border-radius: 12px;
+}
+.content h1{
+    text-align: center;
+}
+
+.sidebar{
+    flex: 25%;
+    margin-right: 20px ;
+    margin-left: 10px;
+}
+
+.sidebar-resim img{
+    width: 100%;
+    border-radius: 20pc;
+}
+
+.sidebar h2{
+    text-align: center;
+}
+
+
+.card{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.footer{
+    background-color: violet;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+}
+
+.footer p{
+    font-size: 30px;
+}
+
+@media screen and (max-width:700px){
+    .container, .navbar{
+        flex-direction: column;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+
+    .content{
+        padding-right: 10px;
+    }
+
+    .resim1{
+        height: 350px;
+    }
+}
